@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BalancedParanthesis
+namespace BalancedParenthesis
 {
     class Node
     {
@@ -14,6 +14,5 @@ namespace BalancedParanthesis
         {
             this.data = data;
         }
-
     }
 }

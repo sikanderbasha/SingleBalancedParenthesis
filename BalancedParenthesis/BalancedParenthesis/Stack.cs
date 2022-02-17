@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BalancedParanthesis
+namespace BalancedParenthesis
 {
-     class Stack
+    internal class Stack
     {
         public Node top;
         public Stack()
@@ -51,7 +51,7 @@ namespace BalancedParanthesis
         public int IsEmpty()
         {
             while (top != null)
-            {              
+            {
                 Pop();
             }
             return 0;

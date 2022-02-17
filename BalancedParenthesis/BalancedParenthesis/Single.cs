@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BalancedParanthesis
+namespace BalancedParenthesis
 {
-    class Single
+    internal class Single
     {
         public Stack stack = new Stack();
         public string express = "(5+6)*(7+8)/(4+3)(5+6)*(7+8)/(4+3)";
@@ -33,7 +33,7 @@ namespace BalancedParanthesis
 
             if (stack.IsEmpty().Equals(0))
             {
-               Console.WriteLine("Balanced expression");
+                Console.WriteLine("Balanced expression");
             }
             else
             {

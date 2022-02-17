@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BalancedParanthesis")]
+[assembly: AssemblyTitle("BalancedParenthesis")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BalancedParanthesis")]
+[assembly: AssemblyProduct("BalancedParenthesis")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("323b9a18-90b8-49dc-a490-117189d876db")]
+[assembly: Guid("be8b1f77-9d3d-4046-b6ec-2ff87b77c6f0")]
 
 // Version information for an assembly consists of the following four values:
 //

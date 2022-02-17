@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{323B9A18-90B8-49DC-A490-117189D876DB}</ProjectGuid>
+    <ProjectGuid>{BE8B1F77-9D3D-4046-B6EC-2FF87B77C6F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BalancedParanthesis</RootNamespace>
-    <AssemblyName>BalancedParanthesis</AssemblyName>
+    <RootNamespace>BalancedParenthesis</RootNamespace>
+    <AssemblyName>BalancedParenthesis</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Single.cs" />
-    <Compile Include="Stack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

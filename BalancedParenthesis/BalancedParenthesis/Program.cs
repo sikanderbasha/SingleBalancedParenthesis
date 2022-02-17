@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BalancedParanthesis
+namespace BalancedParenthesis
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
+
             Single balance = new Single();
             balance.Check();
         }
